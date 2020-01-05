@@ -35,11 +35,11 @@ class postForm extends Component {
         <div>
             <h1>Add Post</h1>
             <form onSubmit = {this.onSubmit}>
+                
                 <div>
-                    <label>Title:</label><br />
-                    <input type = "type" name = "title" onChange = {this.onChange} value = {this.state.title} />
+                    <label>body:</label><br />
+                    <input type = "body"  name = "body" onChange = {this.onChange}  value = {this.state.body} />
                 </div>
-               
                 <br />
                 <button type = "submit">submit</button>
 
