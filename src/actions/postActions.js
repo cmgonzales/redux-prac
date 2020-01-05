@@ -1,5 +1,7 @@
 import {FETCH_POST, NEW_POST} from './types'
 
+
+
 export const fetchPost = ()=> dispatch =>{
     console.log('fetching')
         fetch('https://jsonplaceholder.typicode.com/posts')

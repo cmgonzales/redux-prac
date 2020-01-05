@@ -39,10 +39,7 @@ class postForm extends Component {
                     <label>Title:</label><br />
                     <input type = "type" name = "title" onChange = {this.onChange} value = {this.state.title} />
                 </div>
-                <div>
-                    <label>body:</label><br />
-                    <input type = "body"  name = "body" onChange = {this.onChange}  value = {this.state.body} />
-                </div>
+               
                 <br />
                 <button type = "submit">submit</button>
 
