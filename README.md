@@ -1,1 +1,1 @@
-practice using react and bootstrap
+practice using react and redux
