@@ -41,7 +41,7 @@ class postForm extends Component {
                     <input type = "body"  name = "body" onChange = {this.onChange}  value = {this.state.body} />
                 </div>
                 <br />
-                <button type = "submit">submit</button>
+                <button type = "submit">submitapp</button>
 
             </form>
 
